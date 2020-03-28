@@ -16,6 +16,7 @@
 Device x2 Changelog
 =================
 - Added OpenGapps nano as default Gapps
+- Fixed fingerprint response after system restart
 - Build LDAC decoder library 
 - Update blobs 
 - Update CNE 
