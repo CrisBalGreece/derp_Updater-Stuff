@@ -11,7 +11,7 @@
 - Brand new colorful and shape adaptable icons under DerpQuest section
 - Added full Greek translation of Settings and SystemUI
 - Added Italian, Polish, Pt-Br, Chinese and Vietnamese DerpQuest translation
-
+- For this update clean flash needed
 =================
 Device x2 Changelog
 =================
@@ -40,29 +40,6 @@ Device x2 Changelog
 - Update ADSP blobs from .8.6.r1-03400-89xx.0
 - Fixed BT calling maybe thanks to ThE_MarD
 - OTA I think you can update via ota now
-     03-26-2020
-====================
-LeMax2
-Official build is out
-Updated device tree
-Updated common features
-Updated vendor (bluetooth & sounds)
-Including BlackScreen-7.1
-====================
-     03-25-2020
-====================
-
-
-====================
-     03-24-2020
-====================
-
-
-   * frameworks/base/
-907d2d85481 QS: Add and use Mobile Data panel
-
-
-
 ====================
      03-26-2020
 ====================
