@@ -1,340 +1,183 @@
 ====================
-     04-15-2020
+     05-06-2020
 ====================
 
-[packages/apps/DerpSettings]
-Fixed KronicGreen theme
+[x2_device]
+Enforcing build
+Enabled VNDK
+Updates to the open source consumer ir HAL + bridge
+Universal IR (zaza etc) working now
+Aded a fix for miracast
+Battery bar fixes and graphic colors
+System adjustments
+Dialer including call recording
+by: CrisBalGreece
 
 ====================
-     04-14-2020
+     05-05-2020
+====================
+
+[manifest]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/manifest into ten <2 days ago> [f9288e2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Manifest for Android 10.0.0 Release 34 <2 days ago> [3900458]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/build into ten <2 days ago> [9c45b91f0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <2 days ago> [c7db185c8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+SystemUI: tint volume panel expand button to follow textColorSecondary <25 hours ago> [32464ef7c41]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/frameworks/base into ten <2 days ago> [c38374bd0fd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <2 days ago> [850d70bedd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <2 days ago> [cce9edf72]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/bt]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <2 days ago> [8667d6a58]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-04-2020
 ====================
 
 [frameworks/base]
-QSB: Only apply header padding if a custom header image is selected <2 days ago> [591507f62e2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Squash revert RGB picker [1/5] <3 days ago> [ccf32e91eff]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Proper fix of Android Auto <8 days ago> [85fed7189ed]
-by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+build: Don't check for fingerprint mismatch <7 months ago> [98cf93a34f9]
+by: Dan Cartier (nospamdan1@gmail.com)
+SystemUi: Replace QS Tile  Battery Saver Tile icons to MD2 Design <4 weeks ago> [23fd9a30a2a]
+by: deadmanxxd (deadmanxxd@gmail.com)
+Default Permissions: grant Storage Permission to GBoard <5 weeks ago> [b4ffd6bc13d]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+base: Redo expanded volume panel for 10.x <1 year, 2 months ago> [0e58b1981fe]
+by: HrX03 (dn.bianco03@gmail.com)
+
+[frameworks/native]
+input: Adjust priority <3 years, 7 months ago> [12bd7e1f9]
+by: Steve Kondik (steve@cyngn.com)
 
 [packages/apps/Settings]
-Settings: Squash revert RGB picker [2/5] <3 days ago> [90e85aa7c9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/ThemePicker]
-ThemePicker: Squash revert RGB picker [5/5] <3 days ago> [c971a3d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/overlay]
-overlay: Squash revert RGB picker [4/5] <3 days ago> [d596aca]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Overlay: Add OnePlus Dark Primary <2 weeks ago> [7f860c3]
-by: Aman Singh (amankumarsingh1412@gmail.com)
+Settings: Update RU translation (#10) <3 days ago> [70e26d0b46]
+by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Squash revert RGB picker [3/5] <3 days ago> [c8fa9f2]
+DerpQuest: Allow toggling charging bolt [2/2] <5 days ago> [3f6ad2c]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Update Greek translation (#49) <5 days ago> [37273b9]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Update RU translation (#56) <3 days ago> [9513e6e]
+by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
 
-
-====================
-     04-13-2020
-====================
-
-[device/aosip/sepolicy]
-Revert "aosip: common: add rules for RGB/HSL accentpicker" <2 days ago> [85f9950]
+[packages/apps/OpenDelta]
+OpenDelta: Enable file flashing for A-only aswell <3 days ago> [95788fc]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[vendor/aosip]
-Export techpack/audio uapi headers of msm 4.14 kernel <6 weeks ago> [2b5b3d5]
-by: dianlujitao (dianlujitao@lineageos.org)
-changelog: properly split each of manifest entry <3 days ago> [e853eb3]
-by: Nauval Rizky (enuma.alrizky@gmail.com)
+[scripts]
+scripts: aosp-merger: Split long echoes <3 days ago> [e3619af]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Would be nice to know what we're pushing <3 days ago> [c145641]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Only reset to new tags if there are changes <3 days ago> [cf6fd98]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     04-12-2020
+     05-03-2020
 ====================
 
-[build/make]
-releasetools: do not remove dynamic partitions in system-only builds <6 weeks ago> [ed4cdc1ec]
-by: Peter Cai (peter@typeblog.net)
-Generate block based OTA for product partitions <11 months ago> [c3e7fdc01]
-by: Tianjie Xu (xunchang@google.com)
-build: Allow supplying a prebuilt recovery ramdisk cpio <4 days ago> [b2881e6f5]
-by: Christian Oder (myself5@carbonrom.org)
-Revert "build: Allow supplying a prebuilt recovery ramdisk cpio" <4 days ago> [6e21ef1d3]
-by: Kailash (kailash.sudhakar@gmail.com)
+[frameworks/base]
+QS header: Update and style edit strings <6 weeks ago> [f0def77b93d]
+by: Alex (du.alexcruz@gmail.com)
 
-[device/qcom/sepolicy]
-sepolicy: Remove duplicated iwlan definition <3 days ago> [5c9853c3]
-by: adi8900 (adrianszymanski242@gmail.com)
-sepolicy: Include wifi-ext sepol <4 months ago> [1dd534df]
-by: Dyneteve (dyneteve@pixelexperience.org)
-sepolicy: qva: Remove duplicate specification for qti.ims.ext <6 months ago> [f31feab6]
-by: theimpulson (aayushgupta219@gmail.com)
-sepolicy: this is AOSiP <7 months ago> [9b933f5d]
+
+====================
+     05-02-2020
+====================
+
+[build/soong]
+soong: restore installclean to the original behaviour <3 months ago> [f4b72ed9]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
 
+[frameworks/base]
+base: Allow toggling charging bolt [1/2] <5 days ago> [7a2d4dbaa20]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+BatteryMeterView: Show a bolt ⚡ when charging <2 years, 3 months ago> [0b19ee90d9e]
+by: ezio84 (brabus84@gmail.com)
+
+[packages/apps/Settings]
+Settings: add USB Diag mode to developer options <5 weeks ago> [536c4d150f]
+by: Marko Man (darkobas@gmail.com)
+Settings: Remove no longer used tarnslation strings <10 days ago> [93bf65399a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: disable fingeprint during rename dialog <6 days ago> [7732090064]
+by: maxwen (max.weninger@gmail.com)
+Settings: fix again the pair new icon in BT slice <4 weeks ago> [02abe68631]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Convert backlight timeout to be a SeekBar <5 days ago> [4cd5c34]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update Greek translations (#53) <6 days ago> [7069612]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Adapt secure power menu toggle <7 days ago> [ee9500b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Move StatusBar brightness control to gesture settings <8 days ago> [bac001a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update RU translations (#51,#52) <8 days ago> [2d2b3a6]
+by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
+[SQUASH]DerpQuest: Add Battery Bar [2/2] <1 year, 2 months ago> [4ac28a2]
+by: bigrushdog (randall.rushing@gmail.com)
+DerpQuest: Update Greek translation (#50) <9 days ago> [e63a450]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Don't translate what you shouldn't <2 weeks ago> [fc59372]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow toggling QS panels [2/2] <2 weeks ago> [fe34557]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make 'R style' notification headers toggleable [2/2] <3 weeks ago> [9358905]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "DerpQuest: Make gentle notifications header toggleable [2/2]" <3 weeks ago> [4aa170b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-01-2020
+====================
+
+[manifest]
+manifest: Update vendor/google-customization path [1/2] <6 days ago> [bf3db4e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
 [vendor/aosip]
-changelog: Also generate for repos in local manifests <4 days ago> [83cb572]
+vendor: Update vendor/google-customization path [2/2] <6 days ago> [dd43d72]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     04-30-2020
+====================
+
+[frameworks/base]
+base: Hide power menu on secure lockscreen [1/2] <4 months ago> [9f39ed7825a]
+by: maxwen (max.weninger@gmail.com)
+Revert "[1/2] base: config to disable power menu on secure lock screen" <7 days ago> [1f6fe614aad]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r377782d. <11 days ago> [85dbf6c4]
-by: Stephen Hines (srhines@google.com)
+Update prebuilt Clang to r383902. <7 days ago> [1eb04c49]
+by: Yabin Cui (yabinc@google.com)
 
-[prebuilts/clang/host/linux-x86/clang-proton]
-Update to 20200411 build <4 days ago> [ac072c7]
-by: Danny (danny@kdrag0n.dev)
-
-
-====================
-     04-11-2020
-====================
-
-[vendor/aosip]
-changelog: Prettify output for readability <4 days ago> [072306c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-vendor: changelog: Avoid using repo to cycle through all repos <5 days ago> [f5095e5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-====================
-     04-10-2020
-====================
-
-   * x2
-     Official Vanilla build is out
-
-====================
-
-====================
-     04-07-2020
-====================
-
-     April security patches r33
-   * x2 vendor/overlay/
-     long press actions
-   * x2 frameworks/base/
-     fixed AOD 
-
-====================
-     04-06-2020
-====================
-
-   * x2 frameworks/base/
-     tehthering fixes
-   * x2 vendor/overlay/
-     audio fixes
-   * x2 frameworks/base/
-     enabled gestures overlay 
-
-====================
-     04-05-2020
-====================
-
-   * x2 rameworks/base/
-     fingerprint fixes merged 8996common overlay
-   * x2 added modified pixel gapps
-   • Android Sec Patch R33 Merged
-  • Added Firmware & Recovery PlaceHolder In     DerpQuest About
-  • Fixed system crashing after connected to Android Auto or started screen record
-
-====================
-     04-04-2020
-====================
-
-
-   * build/make/
-25c46faa8 build: envsetup: Introduce 'aospremote' function
-
-   * manifest/
-6447431 manifest: Track scripts repo
-
-   * scripts/
-e6e0174 scripts: aosp-merger: Save local branches to a file before merging
-d5924db scripts: aosp-merger: Remove PROJECTOPERATION argument - we always merge
-85fe5de scripts: aosp-merger: Add and update merge blacklist
-14dbb80 scripts: aosp-merger: Reworked the script
-0aaccf6 scripts: Nuke all unneeded scripts
-
-====================
-     04-03-2020
-====================
-
-
-   * packages/apps/DerpQuest/
-6887b2e DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected
-
-====================
-     04-02-2020
-====================
-
-
-   * frameworks/base/
-1edf46beebf base: SystemUI: Disable junky LS clock & slice transition animations
-
-   * frameworks/opt/telephony/
-f5dddf42e Fix to block data call request for no change in Data RAT
-1071e4f84 Use appropriate method to query UiccCard object
-486b3173c Reset preferred APN setting after restoring default APNs
-7dcc9244b Fix non-roaming overlay not work issue.
-bc33b4520 Set service class with SERVICE_CLASS_NONE over CS
-864739ba2 Fix attach issue due to wrong attach apn
-085d2cc0c Add Null check to getIccId.
-b9f7ad002 MSIM:Fix iccid issue during android upgrade.
-d6feb02a7 Fix iccid issue during android upgrade.
-42c022365 Emergency Number Implementation for SS & DS
-543210a38 Telephony: Get SIM card capacity of SMS
-904322f01 Fix data deactivate issue due to intermediate network requests
-3e6b35bdc Add check for CSIM application presence
-7baf27432 Use tcp buffer values for rat LTE_CA
-0c8896e27 Fix to release partial wakelock for SRVCC handover.
-6648bd79a Refresh SIM operator numeric for multi-mode SIM
-524a63cde Delay intialization of subscription listener
-26b4902c5 Fix the deregistration which happens soon after registration.
-13ea5d3d5 Don't unregister supplementary service notification.
-
-   * manifest/
-c7eb721 manifest: Track proton-clang
-
-====================
-     04-01-2020
-====================
-
-
-   * frameworks/base/
-ae5a88e322a DisplayPolicy: Fix watchdog when adding new display
-
-   * packages/apps/DerpQuest/
-7ec1f89 DerpQuest: Add device specific links support Maintainers should overlay over about_device_fw_ver about_device_fw_link about_device_recovery_ver and about_device_recovery_link * Strings contain no value by default and will not show unless overlayed * Version strings should contain a version name that'll be shown in the preference summary (optional) * Link strings should contain full links - recommend using direct download links
-
-   * prebuilts/clang/host/linux-x86/
-74573a74 Update prebuilt Clang to r377782c.
-
-   * vendor/overlay/
-2c932b9 Merge pull request #5 from amanrajOO7/ten
-c1aeb1a Overlay: Add OnePlus Dark Primary
-
-====================
-     03-31-2020
-====================
-
-
-   * frameworks/base/
-d369d0fef29 SystemUI: simplify qs tile helper
-
-   * packages/resources/devicesettings/
-0b16352 Automatic translation import
-
-   * prebuilts/clang/host/linux-x86/clang-proton/
-0083ce0 Update to 20200330 build
-
-   * vendor/qcom/opensource/fm-commonsys/
-cc7dc91 Automatic translation import
-
-====================
-     03-28-2020
-====================
-- Added NavBar and gestures by default
-- Added a toggle for the QS tint
-- Improved the qstint then previous build
-- Allowed to backup LS clock & date styles values
-- Added a permission group for signature spoofing
-- Make sure media artwork blur restored radius value is valid
-- Added full accent sammy clock style
-- Brand new colorful and shape adaptable icons under DerpQuest section
-- Added full Greek translation of Settings and SystemUI
-- Added Italian, Polish, Pt-Br, Chinese and Vietnamese DerpQuest translation
-- For this update clean flash needed
-=================
-Device x2 Changelog
-=================
-- Clean flash needed for 03-28-2020 build
-- Added OpenGapps nano as default Gapps
-- Fixed fingerprint response after system restart
-- Build LDAC decoder library 
-- Update blobs 
-- Update CNE 
-- Partial Update RIL/IMS
-- Update WiFi Display from.8.6.r1-03400-89xx.0
-- Update time service from .8.6.r1-03400-89xx.0 
-- Update thermal blobs from.8.6.r1-03400-89xx.0 
-- Update sensors from .8.6.r1-03400-89xx.0 
-- Update Power-off Alarm from .8.6.r1-03400-89xx.0
-- Update perf blobs/configs from .8.6.r1-03400-89xx.0
-- Update Media from .8.6.r1-03400-89xx.0
-- Update keystore from 8.6.r1-03400-89xx.0 
-- Update Graphics stack from .8.6.r1-03400-89xx.0
-- Update GPS from .8.6.r1-03400-89xx.0
-- Update Gatekeeper from .8.6.r1-03400-89xx.0
-- Update DRM/Widevine from .8.6.r1-03400-89xx.0
-- Update CNE from 8.6.r1-03400-89xx.0 
-- Update charger from 8.6.r1-03400-89xx.0
-- Update Bluetooth from .8.6.r1-03400-89xx.0
-- Update Audio/ACDB from .8.6.r1-03400-89xx.0 
-- Update ADSP blobs from .8.6.r1-03400-89xx.0
-- Fixed BT calling maybe thanks to ThE_MarD
-- OTA I think you can update via ota now
-====================
-     03-26-2020
-====================
-LeMax2
-Official build is out
-Updated device tree
-Updated common features
-Updated vendor (bluetooth & sounds)
-Including BlackScreen-7.1
-====================
-     03-25-2020
-====================
-No changes
-====================
-     03-24-2020
-====================
-
-   * frameworks/base/
-907d2d85481 QS: Add and use Mobile Data panel
-595e53c0531 QS: Use Settings.Panel intents for WiFi and NFC
-
-   * packages/apps/Settings/
-b578bde80c QS panels: fix data usage display on mobile panel
-ac41b89738 QS panels: Improvements
-6d5db55f06 panels: Add Mobile Data panel
-
-====================
-     03-23-2020
-====================
-
-
-   * frameworks/base/
-60490e7aec7 base: Update Greek translation (#9)
-
-   * packages/apps/DerpQuest/
-2239436 DerpQuest: Add Greek translation
-
-   * packages/apps/Settings/
-785131a25d Settings: Add greek translation
-
-   * vendor/aosip/
-cb6d173 privapp-permissions: Grant READ_LOGS perm to Matlog (#12)
-
-====================
-     03-22-2020
-====================
-No changes
-
-====================
-     03-21-2020
-====================
-
-
-   * frameworks/base/
-07e899ec4ef base: Make sure media artwork blur restored radius value is valid
-
-====================
-     03-20-2020
-====================
+[vendor/google-customization]
+google-customization: Update paths <6 days ago> [9d2fa6a]
+by: Henrique Pereira (hlcpereira@pixelexperience.org)
 
 
