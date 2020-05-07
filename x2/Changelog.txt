@@ -3,6 +3,7 @@
 ====================
 
 [x2_device]
+May 05 security patches
 Enforcing build
 Enabled VNDK
 Updates to the open source consumer ir HAL + bridge
