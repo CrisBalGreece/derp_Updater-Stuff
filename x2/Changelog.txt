@@ -1,4 +1,15 @@
 ====================
+     06-13-2020
+====================
+
+[device/x2]
+Included AOSP dialer (inbuilt)
+More optimizing for GMS services
+Greek translations
+Small system updates
+by: CrisBalGreece
+
+====================
      06-11-2020
 ====================
 
@@ -10,27 +21,20 @@ Updated Vulkan
 Included G-dialer (DerpFest inbuilt)
 Optimized GMS services
 Removed optimizing from Clock
+Greek translations
 System updates
 by: CrisBalGreece
 
-====================
-     06-11-2020
-====================
-
 [frameworks/base]
-base: Allow to flash on call only when entirely silent [1/3] <22 hours ago> [80a9c633326]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Add Flashlight blink on incoming calls [1/3] <6 months ago> [0a48c080557]
-by: PMS22 (pratham220399@gmail.com)
-Revert "Added features flash-call-on-waiting [1/3]" <31 hours ago> [ff28d930daf]
+base: Allow to flash on call only when entirely silent [1/3] <3 days ago> [80a9c633326]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/services/Telecomm]
-Telecomm: Allow to flash on call only when entirely silent [2/3] <22 hours ago> [da01839f]
+Telecomm: Allow to flash on call only when entirely silent [2/3] <3 days ago> [da01839f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Allow to flash on call only when entirely silent [3/3] <22 hours ago> [48e2214]
+DerpQuest: Allow to flash on call only when entirely silent [3/3] <3 days ago> [48e2214]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
@@ -42,42 +46,48 @@ by: Ido Ben-Hur (idoybh2@gmail.com)
 Don't require seinfo for privapps <7 months ago> [902ed15c]
 by: Ashwini Oruganti (ashfall@google.com)
 
+[frameworks/base]
+Add Flashlight blink on incoming calls [1/3] <6 months ago> [0a48c080557]
+by: PMS22 (pratham220399@gmail.com)
+Revert "Added features flash-call-on-waiting [1/3]" <3 days ago> [ff28d930daf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
 [packages/apps/DeskClock]
-DeskClock: Modernize timer_setup_time look <9 days ago> [9cf6ae6ea]
+DeskClock: Modernize timer_setup_time look <11 days ago> [9cf6ae6ea]
 by: LuK1337 (priv.luk@gmail.com)
-DeskClock: Update drawables <10 days ago> [5a6665306]
+DeskClock: Update drawables <12 days ago> [5a6665306]
 by: LuK1337 (priv.luk@gmail.com)
-Revert "Remove max aspect ratio." <6 days ago> [9492a4f8a]
+Revert "Remove max aspect ratio." <9 days ago> [9492a4f8a]
 by: Wang Han (416810799@qq.com)
 Import translations. DO NOT MERGE <5 months ago> [a5cb3320e]
 by: Bill Yi (byi@google.com)
 Import translations. DO NOT MERGE <9 months ago> [4af9d0eaf]
 by: Bill Yi (byi@google.com)
-AOSP/DeskClock - Added SET_ALARM permission check <4 weeks ago> [7aca2eb38]
+AOSP/DeskClock - Added SET_ALARM permission check <5 weeks ago> [7aca2eb38]
 by: Colin Marsch (colinmarsch@google.com)
-AOSP/DeskClock - Updated to sdkVersion 29. <6 weeks ago> [42973c47e]
+AOSP/DeskClock - Updated to sdkVersion 29. <7 weeks ago> [42973c47e]
 by: Raman Tenneti (rtenneti@google.com)
 AOSP/DeskClock - Updated to sdkVersion 29. <7 months ago> [960dd5cf6]
 by: Raman Tenneti (rtenneti@google.com)
 
 [packages/apps/Dialer]
-Automatic translation import <2 days ago> [eb38e13b8]
+Automatic translation import <4 days ago> [eb38e13b8]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
 
 [packages/apps/Launcher3]
-Automatic translation import <2 days ago> [5261213b0]
+Automatic translation import <4 days ago> [5261213b0]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
 
 [packages/services/Telecomm]
 Telecomm: Add Flashlight blink on incoming calls [2/3] <2 years ago> [74510c73]
 by: Shripal17 (shripal17@gmail.com)
-Revert "Added features flash-call-on-waiting [2/3]" <31 hours ago> [d0c0832a]
+Revert "Added features flash-call-on-waiting [2/3]" <3 days ago> [d0c0832a]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
 DerpQuest: Add Flashlight blink on incoming calls [3/3] <2 years ago> [8cd4cff]
 by: PMS22 (prathams99@rediff.com)
-DerpQuest: Remove flash-on-call settings in favor of new one <31 hours ago> [64e366f]
+DerpQuest: Remove flash-on-call settings in favor of new one <3 days ago> [64e366f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
@@ -86,16 +96,33 @@ by: Ido Ben-Hur (idoybh2@gmail.com)
 ====================
 
 [manifest]
-manifest: Track our own sm8150 display HAL <2 days ago> [beacdbe]
+manifest: Track our own sm8150 display HAL <4 days ago> [beacdbe]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/native]
-commonsys-intf: display: Add frame extn interface. <12 months ago> [e557b932c]
-by: Rajavenu Kyatham (rkyatham@codeaurora.org)
 
 [hardware/qcom-caf/sm8150/display]
 commonsys-intf: display: Update SmoMo interface <9 months ago> [a5ec2689]
 by: Ray Zhang (rayz@codeaurora.org)
+
+
+====================
+     06-08-2020
+====================
+
+[frameworks/native]
+commonsys-intf: display: Add frame extn interface. <12 months ago> [e557b932c]
+by: Rajavenu Kyatham (rkyatham@codeaurora.org)
+commonsys-intf: display: Add extension interfaces <4 months ago> [c0d7e010a]
+by: Karthi Kandasmay (kartka@codeaurora.org)
+sf: avoid assumption remote binder is local <3 months ago> [0fb28f97c]
+by: Steven Moreland (smoreland@google.com)
+DO NOT MERGE: SF: fix SurfaceFlinger freeze <4 months ago> [2ccc31d88]
+by: Marissa Wall (marissaw@google.com)
+sf: Fix issue with dequeueBuffer when multiple display present <1 year, 9 months ago> [43182d5a4]
+by: Baldev Sahu (bsahu@codeaurora.org)
+SurfaceFlinger: Exclude CAF extensions from non-QC devices <11 months ago> [ca153e26c]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+surfaceflinger: Merge caf changes <9 days ago> [eb46e553c]
+by: Adhitya Mohan (me@adhityamohan.in)
 
 [packages/apps/Settings]
 Settings: Fix IndexOutOfBound error on bt codec selection <2 weeks ago> [4c9ac68d02]
@@ -103,90 +130,27 @@ by: rituj (ritujbeniwal@gmail.com)
 
 
 ====================
-     06-08-2020
+     06-07-2020
 ====================
 
 [frameworks/base]
 SystemUI: Adapt screenshot sound to ringer modes <2 weeks ago> [a111fb4d2c0]
 by: Ashwin R C (ashwin2001achu@gmail.com)
-
-[frameworks/native]
-commonsys-intf: display: Add extension interfaces <4 months ago> [c0d7e010a]
-by: Karthi Kandasmay (kartka@codeaurora.org)
-sf: avoid assumption remote binder is local <3 months ago> [0fb28f97c]
-by: Steven Moreland (smoreland@google.com)
-DO NOT MERGE: SF: fix SurfaceFlinger freeze <4 months ago> [2ccc31d88]
-by: Marissa Wall (marissaw@google.com)
-sf: Fix issue with dequeueBuffer when multiple display present <1 year, 8 months ago> [43182d5a4]
-by: Baldev Sahu (bsahu@codeaurora.org)
-SurfaceFlinger: Exclude CAF extensions from non-QC devices <11 months ago> [ca153e26c]
+VolumeDialog: Fix live caption button when on left side <10 days ago> [0dfd8ef3787]
 by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-surfaceflinger: Merge caf changes <6 days ago> [eb46e553c]
-by: Adhitya Mohan (me@adhityamohan.in)
 
 [packages/apps/Settings]
-Settings: Preview the custom ringtone vibration pattern <4 days ago> [ae68a6065f]
+Settings: Preview the custom ringtone vibration pattern <6 days ago> [ae68a6065f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: Hide settings version from carrier settings if unsupported <7 days ago> [c9b9bef325]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/services/Telecomm]
-Telecomm: Allow choosing a custom vibration pattern [2/3] <6 days ago> [f51a0847]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     06-07-2020
-====================
-
-[frameworks/base]
-VolumeDialog: Fix live caption button when on left side <8 days ago> [0dfd8ef3787]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
-[packages/apps/Settings]
-Settings: Hide settings version from carrier settings if unsupported <5 days ago> [c9b9bef325]
+Telecomm: Allow choosing a custom vibration pattern [2/3] <8 days ago> [f51a0847]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
 DerpQuest: Add drill <3 years, 4 months ago> [950164a]
 by: Pranav Vashi (neobuddy89@gmail.com)
-
-
-====================
-     06-06-2020
-====================
-
-[frameworks/base]
-base: Allow choosing a custom vibration pattern [1/3] <6 days ago> [87269d53901]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Add vibration patterns from OOS [1/3] <4 months ago> [8f3546070f2]
-by: rituj (ritujbeniwal@gmail.com)
-base: Fix NPE on some devices by checking for null client (#24) <6 days ago> [4b1c9ff291b]
-by: Pierre-Hugues Husson (phh@phh.me)
-base: Add refresh rate setting [1/2] (#23) <7 days ago> [884d0eb7824]
-by: Anushek Prasal (anushekprasal@gmail.com)
-
-[packages/apps/Settings]
-Settings: Allow choosing a custom vibration pattern [3/3] <6 days ago> [51c47c991e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Add vibration patterns from OOS [3/3] <6 days ago> [3a70a4b4d8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     06-05-2020
-====================
-
-[packages/apps/Settings]
-Settings: Use device specific max refresh rate for the switch (#14) <7 days ago> [c387439fce]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Add refresh rate setting [2/2] (#13) <7 days ago> [da465e1d5f]
-by: Cryllic Buster (49910222+CryllicBuster273@users.noreply.github.com)
-
-[packages/services/Telecomm]
-Telecomm: Add vibration patterns from OOS [2/3] <4 months ago> [98fcc12e]
-by: rituj (ritujbeniwal@gmail.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: Allow hiding info text <7 days ago> [f1bb24e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
