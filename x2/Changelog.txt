@@ -1,7 +1,17 @@
 ====================
      08-08-2020
 ====================
-
+[device/x2]
+Updated blobs
+Updates GPU drivers
+Updated OpenGL
+Updated Vulkan
+Included G-dialer (DerpFest inbuilt)
+Optimized GMS services
+Removed optimizing from Clock
+Greek translations
+System updates
+by: CrisBalGreece
 
 ====================
      08-07-2020
