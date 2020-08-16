@@ -1,20 +1,16 @@
 ====================
-     08-08-2020
+     08-16-2020
 ====================
+
 [device/x2]
-Updated blobs
-Updates GPU drivers
-Updated OpenGL
-Updated Vulkan
-Included G-dialer (DerpFest inbuilt)
-Optimized GMS services
-Removed optimizing from Clock
+update GPU and Vulkan drivers
+update Lawnchair and Lawnfeed
+system updates - fixes
 Greek translations
-System updates
-by: CrisBalGreece
+by CrisBalGreece
 
 ====================
-     08-07-2020
+     08-08-2020
 ====================
 
 [device/qcom/sepolicy]
