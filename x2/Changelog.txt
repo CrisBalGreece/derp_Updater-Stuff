@@ -1,16 +1,22 @@
 ====================
-     08-16-2020
+     08-09-2020
 ====================
-
 [device/x2]
-update GPU and Vulkan drivers
-update Lawnchair and Lawnfeed
-system updates - fixes
-Greek translations
-by CrisBalGreece
+August patches Vanilla build
+by: CrisBalGreece
 
 ====================
      08-08-2020
+====================
+[device/x2]
+Included AOSP dialer (inbuilt)
+More optimizing for GMS services
+Greek translations
+Small system updates
+by: CrisBalGreece
+
+====================
+     08-07-2020
 ====================
 
 [device/qcom/sepolicy]
@@ -18,7 +24,7 @@ sepolicy: Allow system_server to read persist camera props <1 year, 7 months ago
 by: dianlujitao (dianlujitao@lineageos.org)
 
 [frameworks/base]
-BatteryService: Add VOOC charging support <3 days ago> [824269e5d4c]
+BatteryService: Add VOOC charging support <4 days ago> [824269e5d4c]
 by: karthick111 (karthick111@users.noreply.github.com)
 base: SystemUI: Fix Active Color For QS Tile Styles <6 weeks ago> [502570a07e0]
 by: rohan (purohit.rohan@gmail.com)
@@ -71,27 +77,29 @@ by: Park Ju Hyung (qkrwngud825@gmail.com)
 ====================
 
 [manifest]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <5 days ago> [6a84861]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <6 days ago> [6a84861]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <5 days ago> [458a841]
+Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <6 days ago> [458a841]
 by: The Android Open Source Project (initial-contribution@android.com)
+manifest: Track Snap camera from AOSiP <6 days ago> [5268110]
+by: Murtaza@Piplod (murtaza1926@gmail.com)
 
 [build/make]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <5 days ago> [26f2481f3]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <6 days ago> [26f2481f3]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [external/gptfdisk]
-Merge tag 'android-10.0.0_r41' into ten <5 days ago> [aad8539]
+Merge tag 'android-10.0.0_r41' into ten <6 days ago> [aad8539]
 by: Akhil Narang (me@akhilnarang.dev)
 
 [frameworks/av]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <5 days ago> [3ddea8400]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <6 days ago> [3ddea8400]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
-base: StatusBar: Improve custom settings observer <4 days ago> [0553caabffc]
+base: StatusBar: Improve custom settings observer <5 days ago> [0553caabffc]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten <5 days ago> [a36ca80b795]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten <6 days ago> [a36ca80b795]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern() <3 months ago> [c8f7061aac0]
 by: LuK1337 (priv.luk@gmail.com)
@@ -99,11 +107,11 @@ Camera: allow camera to use power key as shutter <8 years ago> [0e72c13d002]
 by: Danesh M (daneshm90@gmail.com)
 
 [packages/apps/Settings]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <5 days ago> [ae6c3c35b9]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <6 days ago> [ae6c3c35b9]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/services/Telephony]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <5 days ago> [99bd78805]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <6 days ago> [99bd78805]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [scripts]
@@ -111,7 +119,7 @@ scripts: aosp-merger: Make sure AOSP remote is valid <5 days ago> [b45917a]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 scripts: aosp-merger: Don't detach all heads <5 days ago> [b4ff52f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Manually merge build/make & manifest before sync <5 days ago> [83a8ca1]
+scripts: aosp-merger: Manually merge build/make & manifest before sync <6 days ago> [83a8ca1]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
@@ -119,21 +127,12 @@ by: Ido Ben-Hur (idoybh2@gmail.com)
      08-03-2020
 ====================
 
-[manifest]
-manifest: Track Snap camera from AOSiP <5 days ago> [5268110]
-by: Murtaza@Piplod (murtaza1926@gmail.com)
-
 [packages/apps/PermissionController]
 PermissionController: force the hub <3 weeks ago> [fdc5bded]
 by: Anay Wadhera (awadhera@berkeley.edu)
 
-
-====================
-     08-02-2020
-====================
-
 [packages/apps/Settings]
-Settings: Update Simplified Chinese translations <7 days ago> [907f35d11e]
+Settings: Update Simplified Chinese translations <8 days ago> [907f35d11e]
 by: onlymash (im@fiepi.me)
 
 
