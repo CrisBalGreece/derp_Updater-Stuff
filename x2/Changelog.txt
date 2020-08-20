@@ -9,6 +9,31 @@ system updates - fixes
 Greek translations
 by CrisBalGreece
 
+
+
+[*]Fixed Freeform window moving & resize issues
+[*]QS make sure we dont show empty row
+[*]Make lockscreen timeout configurable
+[*]Fix WebView vulnerability by disallowing file access
+[*]Added Pulse Navbar
+[*]Added automatic album art color mode for navbar pulse 
+[*]Added Switch Styles
+[*]Reverted Vowifi Icon Implementation
+[*]Refactor LockScreen elements font type & size implementation
+[*]Added RGB accenter
+[*]Added Bluetooth QTI Implementation
+[*]Improved Network Traffic Monitor
+[*]Added support for a custom icon for Toast 
+[*]Allow showing music heads up on new tracks
+[*]Added QS header styles
+[*]Added Powermenu Background filter 
+[*]Make Master switches summaries dynamic 
+[*]Added a name fitting easter egg
+[*]Added Derp Clear Primary
+[*]Added Snap Camera Support
+[*]Updates to translations
+[*]Some more minor derps/bugs fixes
+
 ====================
      08-18-2020
 ====================
