@@ -1,70 +1,13 @@
 ====================
-     09-19-2020
+     10-11-2020
 ====================
 
 [device/x2]
-September 2020 security patches
-Added Cam2APIswitch
-Added LetvCamera
-Small OP3-PowerSave kernel adjustments
-Updates-fixes
-System updates - fixes
-more stuff
-by CrisBalGreece
-
-====================
-     09-16-2020
-====================
-
-[scripts]
-updater: Make sure Updater-Stuff repo is up to date after upload <4 days ago> [319634c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     09-15-2020
-====================
-
-
-====================
-     09-14-2020
-====================
-
-[vendor/aosip]
-kernel: Use CPATH for including host headers <3 weeks ago> [a51dd86]
-by: LuK1337 (priv.luk@gmail.com)
-
-
-====================
-     09-13-2020
-====================
-
-[build/make]
-sign_target_apks: Replace update-payload-key.pub.pem in RECOVERY as well <8 days ago> [1b99b8d32]
-by: LuK1337 (priv.luk@gmail.com)
-build_image: Allow disabling custom inode count calculation <13 days ago> [ab976790b]
-by: Christian Oder (myself5@carbonrom.org)
-Refactor how MODULES-IN-* is defined <3 months ago> [20a458f04]
-by: Dan Willemsen (dwillemsen@google.com)
-base_rules.mk optimizations <3 months ago> [32e84df59]
-by: Dan Willemsen (dwillemsen@google.com)
-Fix test suite data files issue. <6 months ago> [862f03285]
-by: Jaewoong Jung (jungjw@google.com)
-Export list of "installable" files to soong_ui <9 months ago> [2c2d28d0b]
-by: Dan Willemsen (dwillemsen@google.com)
-Rewrite test data logic to make it faster <4 months ago> [f315ed900]
-by: Dan Willemsen (dwillemsen@google.com)
-More performance improvements <3 months ago> [391454102]
-by: Dan Willemsen (dwillemsen@google.com)
-releasetools: Skip on empty care_map. <1 year, 5 months ago> [af2fa9645]
-by: Tao Bao (tbao@google.com)
-releasetools: GetCareMap supports non-sparse image. <1 year, 5 months ago> [c93b2163a]
-by: Tao Bao (tbao@google.com)
-Bump SPl to 2020-09-05 <9 days ago> [24378b4dc]
-by: Akhil Narang (me@akhilnarang.dev)
-
-[packages/apps/Launcher3]
-Launcher3: improve protected app names style <6 weeks ago> [1cbb1e890]
-by: Joey (joey@lineageos.org)
+ System updates
+ October 2020 Security patches
+ More system adjustments
+ Fp adjustments
+ New wallpaper
+ by CrisBalGreece
 
 
